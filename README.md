@@ -5,18 +5,20 @@ Research project conducted on the open source drone model name: Bebop 2
 - Python 2.7-3.xx
 - Wireshark
 - Linux OS 
-- [Bebop Drone 2] (https://www.amazon.com/Parrot-Quadcopter-Flight-Inclusive-Battery/dp/B01BW0Q4F6/ref=sr_1_1_sspa?ie=UTF8&qid=1523479368&sr=8-1-spons&keywords=Bebop+drone+2&psc=1)
+- [Bebop Drone 2](https://www.amazon.com/Parrot-Quadcopter-Flight-Inclusive-Battery/dp/B01BW0Q4F6/ref=sr_1_1_sspa?ie=UTF8&qid=1523479368&sr=8-1-spons&keywords=Bebop+drone+2&psc=1)
+
 **Linux Controller**
 - [ARSDK3](https://github.com/Parrot-Developers/ARSDK3)
 - Netifaces
 - Zero-conf
 - tkinter
-- [libARNetwork] (https://github.com/Parrot-Developers/libARNetwork)
-- [libARCommands] (https://github.com/Parrot-Developers/libARCommands)
+- [libARNetwork](https://github.com/Parrot-Developers/libARNetwork)
+- [libARCommands](https://github.com/Parrot-Developers/libARCommands)
+
 **Attacks**
 - Kali linux
 - Aircrack-ng suite
-- [Wirless adapter (2.4/5 GHZ)] (https://www.amazon.com/Alfa-AWUS036NH-802-11g-Wireless-Long-Range/dp/B003YIFHJY/ref=sr_1_1_sspa?ie=UTF8&qid=1523479203&sr=8-1-spons&keywords=alfa+wireless+network+adapter&psc=1&smid=A2LM6ZPY06LT1N)
+- [Wirless adapter (2.4/5 GHZ)](https://www.amazon.com/Alfa-AWUS036NH-802-11g-Wireless-Long-Range/dp/B003YIFHJY/ref=sr_1_1_sspa?ie=UTF8&qid=1523479203&sr=8-1-spons&keywords=alfa+wireless+network+adapter&psc=1&smid=A2LM6ZPY06LT1N)
 - Python scapy
 
 **Mitigations**
