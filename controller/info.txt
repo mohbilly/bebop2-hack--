@@ -1,0 +1,7 @@
+1) Unzip file
+2) Execute "export ARSDK_PATH= path/to/ARDSK"
+3) To access controller and run it using Linux:
+  1) cd "unzipped file"
+  2) cd Bebop-master
+  3) cd controller
+  4) sudo python droneFinal.py
