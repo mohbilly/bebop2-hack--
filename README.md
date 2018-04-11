@@ -9,8 +9,8 @@ Research project conducted on the open source drone model name: Bebop 2
 
 **Linux Controller**
 - [ARSDK3](https://github.com/Parrot-Developers/ARSDK3)
-- Netifaces
-- Zero-conf
+- netifaces
+- zeroconf
 - tkinter
 - [libARNetwork](https://github.com/Parrot-Developers/libARNetwork)
 - [libARCommands](https://github.com/Parrot-Developers/libARCommands)
