@@ -31,5 +31,5 @@ drone_MAC = "A0:14:3D:69:4F:04" # Drone's MAC address
 os.system("echo 1 > /proc/sys/net/ipv4/ip_forward") #enable port forwading
  
 while True: # spam packets
-	spoof_Victim(iphone_MAC, iphone_IP, droneIP_spoof, my_MAC)
+	spoof_victim(iphone_MAC, iphone_IP, droneIP_spoof, my_MAC)
 	spoof_drone(drone_MAC, drone_IP, iphoneIP_spoof, my_MAC)
