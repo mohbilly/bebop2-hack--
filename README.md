@@ -33,16 +33,18 @@ Research project conducted on the open source drone model name: Bebop 2
 
 # Attacks
 - ARP MITM attack
-- Deauth frames flood attack
-  Utilizing aircrak-ng tool, send de-authenticaion to kick victim off network
 - Packet injection
+  - The drone only accepted **one** controller/ IOS/Android app controller at a time
+  - Sending low level forged packets will disturb drone activity if those packets don't have a method of authentication 
   - Captured takeoff, landing, emergency packets between drone and controller
   - Inspected and disected packet payload
   - From [Developer pdf](https://developer.parrot.com/docs/bebop/ARSDK_Protocols.pdf)
     Page 12 --> show casing payload payload frame Datatype/Target Buffer ID/Sequence number/Total fram size/Actual data
     Actual data --> contains the actuall command weather it's takeoff,land,emergency land
     Page 13 --> specified that "The ARNetwork library will ignore out of order and duplicate data, but will still send Acks       for them if requested. If the back-gap in sequence number is too high"he frame is not considered out of order, and
-    instead is accepted as the new reference sequence number.**I utilized this to forge a packet starting with a large seq num**
+    instead is accepted as the new reference sequence number.**I utilized this to forge a packet starting with a large seq and  num and  disturb connection between victim user and drone**
+- Deauth frames flood attack
+  -Utilizing aircrak-ng tool, send de-authenticaion to kick victim off network
     
 - EvilTwin
 
